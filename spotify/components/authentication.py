@@ -18,7 +18,7 @@ log = logging.getLogger(__name__)
 
 
 class Authentication(Component, Emitter):
-    auth_host = 'play.spotify.com'
+    auth_host = 'open.spotify.com'
     auth_path = '/xhr/json/auth.php'
     landing_path = '/'
 
